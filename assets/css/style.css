@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Pacifico&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script:wght@400;500&family=Pacifico&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel:wght@600&family=Dancing+Script:wght@400;500&family=Pacifico&family=Playfair+Display:ital,wght@1,400;1,500;1,600&display=swap');
+
+body{
+    background-color: rgb(248, 243, 243);
+}
+
+header{
+    display: fixed;
+    z-index: 999;
+}
+
+.navbar-brand{
+    color: rgb(71, 12, 12);
+    font-weight: bold;
+    font-family: Playfair Display;
+}
+
+.one{
+   margin-top: 20px;
+}
+
+.one .general-one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.one .carousel-inner{
+    margin-right: 100px;
+}
+
+.only-wine1{
+    width: 500px;
+}
+
+.only-wine2{
+    width: 500px;
+}
+
+.only-wine3{
+    width: 500px;
+}
+
+.only-wine5{
+    width: 500px;
+}
+
+.only-wine6{
+    width: 500px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+    font-family: Playfair Display;
+}
+
+.one p{
+    margin-top: 20px;
+    text-align: center;
+    font-family: Dancing Script;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(71, 12, 12);
+}
+
+footer{
+    background-color: rgb(207, 203, 203);
+    display: flex;
+    z-index: 999;
+    margin-top: 5px;
+}
+
+header .dropdown-menu{
+    display: none;
+}
+
+.two{
+    margin-top: 20px;
+}
+
+.two .general-two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two .city-number{
+    margin-left: 130px;
+}
+
+.two h5,.two h6{
+    font-family: Pacifico;
+}
+
+.two .img{
+    margin-left: 100px;
+}
+
+.wine-hall{
+    width: 900px;
+}
+
+.three{
+    margin-top: 20px;
+}
+
+.three .general-three{
+    display: flex;
+    justify-content: space-between;
+}
+
+.three h3, .three h5{
+    text-align: center;
+    color: rgb(71, 12, 12);
+    font-family: Cinzel;
+}
+
+.three p{
+    text-align: center;
+    color: rgb(71, 12, 12);
+    font-family: Caveat;
+    font-size: 20px;
+}
+
+.three .redw{
+    color: green;
+    font-weight: bold;
+}
